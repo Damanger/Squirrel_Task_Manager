@@ -14,8 +14,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "SquirrelTrello",
-  description: "Trello app",
+  title: "Squirrel Task Manager",
+  description: "Task Manager app",
 };
 
 export default function RootLayout({
