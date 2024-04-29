@@ -63,7 +63,7 @@ function Sidebar() {
                 })}
             </ul>
             <div className="sign-out relative m-6">
-                <Button
+                <Button color="#DD3333"
                     name={"Sign Out"}
                     type={"submit"}
                     padding={"0.4rem 0.8rem"}
