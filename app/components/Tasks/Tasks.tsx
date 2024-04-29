@@ -124,8 +124,8 @@ const TaskStyled = styled.main`
         }
 
         &:hover {
-        background-color: ${(props) => props.theme.colorGrey5};
-        color: ${(props) => props.theme.colorGrey0};
+            background-color: ${(props) => props.theme.colorGrey5};
+            color: ${(props) => props.theme.colorGrey0};
         }
     }
 `;
