@@ -51,7 +51,7 @@ function TaskItem({ title, description, date, isCompleted, id }: Props) {
                     </button>
                 )}
                 <button className="edit">{edit}</button>
-                <button
+                <button 
                     className="delete"
                     onClick={() => {
                         deleteTask(id);

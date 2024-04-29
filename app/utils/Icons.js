@@ -1,10 +1,10 @@
-export const bars = <i className="fa-solid fa-bars fa-beat"></i>;
-export const arrowLeft = <i className="fa-solid fa-arrow-left fa-beat"></i>;
+export const bars = <i style={{color:'aliceblue'}} className="fa-solid fa-bars fa-beat"></i>;
+export const arrowLeft = <i style={{color:'aliceblue'}} className="fa-solid fa-arrow-left fa-beat"></i>;
 
 export const add = <i className="fa-solid fa-plus"></i>;
-export const moon = <i className="fa-solid fa-moon"></i>;
-export const search = <i className="fa-solid fa-magnifying-glass"></i>;
-export const bell = <i className="fa-solid fa-bell"></i>;
+export const moon = <i style={{color:'aliceblue'}} className="fa-solid fa-moon"></i>;
+export const search = <i style={{color:'aliceblue'}} className="fa-solid fa-magnifying-glass"></i>;
+export const bell = <i style={{color:'aliceblue'}} className="fa-solid fa-bell"></i>;
 export const home = <i style={{color:'aliceblue'}} className="fa-solid fa-house"></i>;
 export const list = <i style={{color:'#1CE1DE'}} className="fa-solid fa-list-check"></i>;
 export const check = <i style={{color:'#4FE11C'}} className="fa-solid fa-check"></i>;

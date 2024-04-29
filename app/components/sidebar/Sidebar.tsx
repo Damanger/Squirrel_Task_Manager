@@ -16,10 +16,9 @@ function Sidebar() {
 
     const { user } = useUser();
 
-    const { firstName, lastName, imageUrl } = user || {
+    const { firstName, lastName } = user || {
         firstName: "",
         lastName: "",
-        imageUrl: "",
     };
 
     const router = useRouter();
@@ -38,7 +37,7 @@ function Sidebar() {
                 <div className="profile-overlay"></div>
                 <div className="image">
                 </div>
-                <div className="user-btn absolute z-20 top-0 w-full h-full">
+                <div className="user-btn relative z-20 top-0 right-7 w-full h-full" style={{scale:'2'}}>
                     <UserButton />
                 </div>
                 <h1 className="capitalize">
@@ -131,15 +130,9 @@ const SidebarStyled = styled.nav<{ collapsed: boolean }>`
             .cl-userButtonBox {
                 width: 100%;
                 height: 100%;
-
-            .cl-userButtonTrigger {
-            width: 100%;
-            height: 100%;
-            opacity: 0;
             }
         }
     }
-}
 
     .profile {
         margin: 1.5rem;

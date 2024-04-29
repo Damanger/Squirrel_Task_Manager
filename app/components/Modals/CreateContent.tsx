@@ -132,7 +132,7 @@ function CreateContent() {
                     borderRad={"0.8rem"}
                     fw={"500"}
                     fs={"1.2rem"}
-                    background={"rgb(0, 163, 255)"}
+                    background={theme.colorGreenDark}
                 />
             </div>
         </CreateContentStyled>
